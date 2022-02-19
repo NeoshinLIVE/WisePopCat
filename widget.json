@@ -1,0 +1,102 @@
+{
+  "test": {
+    "type": "button",
+    "label": "Run Test",
+    "group": "Test"
+  },
+  "avatar":{
+  	"type":"image-input",
+    "label":"Avatar",
+    "group":"Styles"
+  },
+  "avatarName":{
+  	"type":"text",
+    "label":"Avatar Name",
+    "value":"PopCat",
+    "group":"Styles"
+  },
+  "color":{
+    "type":"colorpicker",
+    "label":"Text Color",
+    "value":"#571603",
+    "group":"Styles"
+  },
+  "backgroundColor":{
+    "type":"colorpicker",
+    "label":"Background Color",
+    "value":"#f8bb6a",
+    "group":"Styles"
+  },
+  "borderColor":{
+    "type":"colorpicker",
+    "label":"Border Color",
+    "value":"#dc7b0b",
+    "group":"Styles"
+  },
+  "fontSize":{
+    "type":"number",
+    "label":"Text Size",
+    "value":14,
+    "step":1,
+    "min":8,
+    "group":"Styles"
+  },
+  "commands": {
+    "type":"text",
+    "label":"Chat Commands (separate with ,)",
+    "value":"!randomfact,!rf,!popcat",
+    "group":"Settings"
+  },
+  "cooldown":{
+    "type":"number",
+    "label":"Command Cooldown (seconds)",
+    "value":30,
+    "step":1,
+    "min":5,
+    "group":"Settings"
+  },
+  "language": {
+    "type":"dropdown",
+    "label":"Language",
+    "value":"en",
+    "options": {
+      "en":"English",
+      "de": "German"
+    },
+    "group":"Settings"
+  },
+  "widgetDuration":{
+    "type":"number",
+    "label":"Displas Duration (seconds)",
+    "value":10,
+    "step":1,
+    "min":2,
+    "group":"Settings"
+  },
+  "timer":{
+    "type":"number",
+    "label":"Show every x minutes (0 = never)",
+    "value":30,
+    "step":1,
+    "min":0,
+    "group":"Settings"
+  },
+  "widgetName":{
+    "type":"hidden",
+    "label":"[WisePopCat - v1.0]",
+    "value":"WisePopCat",
+    "group":"About"
+  },
+  "widgetAuthor":{
+    "type":"hidden",
+    "label":"Created by Neoshin#0001",
+    "value":"Neoshin",
+    "group":"About"
+  },
+  "widgetUpdateUrl":{
+    "type":"hidden",
+    "label":"Website - neoshin.de",
+    "value":"https://neoshin.de",
+    "group":"About"
+  }
+}
